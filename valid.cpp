@@ -1,6 +1,8 @@
-//Jose Guzman
-//Lab 2A
-
+/*
+Jose Guzman
+JoseG777
+Returns a number squared if the given number is within a certain range.
+*/
 #include <iostream>
 int main(){
     int x;
