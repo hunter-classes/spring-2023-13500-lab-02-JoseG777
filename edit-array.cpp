@@ -18,15 +18,19 @@ int main(){
     int i;
     int v;
     do{
-        std::cout<<"Input a new value and index to update the array: \n";
+        std::cout<<"Input a new index and value to update the array: \n";
         std::cout<<"Index: \n";
         std::cin>>i;
         std::cout<<"Value: \n";
         std::cin>>v;
         myData[i] = v;
+        for(int i = 0; i < 10; i++){
+        std::cout<< myData[i]<< " ";
+    }
+        std::cout<<"\n";
     }
     while(0 <= i and i < 10);
-    std::cout<<"Index out of range. Exit. \n";
+    std::cout<<"Index out of range. Exit. Your updated array is: \n";
     for(int i = 0; i < 10; i++){
         std::cout<< myData[i]<< " ";
     }
