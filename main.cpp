@@ -7,7 +7,7 @@ Prints all the numbers in a given interval.
 #include "funcs.h"
 
 int main(){
-    print_interval(-10, 2918);
+    print_interval(-1, 111);
     std::cout<<"\n";
     print_interval(-10, 62);
     std::cout<<"\n";
